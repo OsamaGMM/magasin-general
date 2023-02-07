@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+
+    *,
+    *::after,
+    *::before {
+        box-sizing: inherit;
+    }
+
+    font-size: clamp(14px, 1vw + 0.5rem, 22px);
+
+    body {
+        margin: 0;
+        font-family: 'Roboto Slab', serif;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}

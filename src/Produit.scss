@@ -1,0 +1,13 @@
+.Produit {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    box-shadow: 5px 5px 15px 2px rgba(80, 80, 80, 0.7);
+
+    // Mauvaise idée
+    .prix::after {
+        content: ' $CA';
+    }
+}
