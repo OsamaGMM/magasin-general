@@ -13,5 +13,85 @@
         "id": "prd0003",
         "nom": "Chemise",
         "prix": 22.50
+    },
+    {
+        "id": "prd0005",
+        "nom": "T-shirt",
+        "prix": 19.99
+    },
+    {
+        "id": "prd0006",
+        "nom": "Robe",
+        "prix": 59.99
+    },
+    {
+        "id": "prd0007",
+        "nom": "Blazer",
+        "prix": 89.99
+    },
+    {
+        "id": "prd0008",
+        "nom": "Chemise",
+        "prix": 29.99
+    },
+    {
+        "id": "prd0009",
+        "nom": "Pantalon",
+        "prix": 49.99
+    },
+    {
+        "id": "prd0010",
+        "nom": "Hoodie",
+        "prix": 49.99
+    },
+    {
+        "id": "prd0011",
+        "nom": "Chaussures",
+        "prix": 79.99
+    },
+    {
+        "id": "prd0012",
+        "nom": "Baskets",
+        "prix": 99.99
+    },
+    {
+        "id": "prd0013",
+        "nom": "Bottes",
+        "prix": 139.99
+    },
+    {
+        "id": "prd0014",
+        "nom": "Sandales",
+        "prix": 49.99
+    },
+    {
+        "id": "prd0015",
+        "nom": "Tongs",
+        "prix": 19.99
+    },
+    {
+        "id": "prd0016",
+        "nom": "Ceinture",
+        "prix": 29.99
+    },
+    {
+        "id": "prd0017",
+        "nom": "Écharpe",
+        "prix": 29.99
+    },
+    {
+        "id": "prd0018",
+        "nom": "Chapeau",
+        "prix": 19.99
+    },
+    {
+        "id": "prd0019",
+        "nom": "Gants",
+        "prix": 29.99
+    },
+    {
+        "id": "prd0020",
+        "nom": "Lunettes de soleil",
+        "prix": 49.99
     }
 ]

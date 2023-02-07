@@ -1,5 +1,4 @@
 import './ListeProduits.scss';
-
 import Produit from "./Produit";
 import produits from './data/produits.json';
 
