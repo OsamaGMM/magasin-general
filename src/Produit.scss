@@ -5,9 +5,13 @@
     align-items: center;
     background-color: burlywood;
     box-shadow: 5px 5px 15px 2px rgba(80, 80, 80, 0.7);
-
-    // Mauvaise idée
-    .prix::after {
-        content: ' $CA';
+    button{
+        margin: 5px;
+        background-color: black;
+        padding: 1rem;
+        color: white;
+        border: 1px solid;
+        box-shadow: 2px 2px 5px 1px;
+        cursor: pointer;
     }
 }
