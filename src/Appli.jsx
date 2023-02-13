@@ -6,10 +6,8 @@ import Pied2page from './Pied2page';
 
 function Appli() {
   //On utilise le Hook useState()
-  //                   valeur initital
-  const etatPanier = useState({});
-  const panier = etatPanier[0]
-  const setPanier = etatPanier[1];
+  //Je veut maintenir le panier dans un objet JS surveille par React
+  const [panier, setPanier] = useState({});
 
 
   return (

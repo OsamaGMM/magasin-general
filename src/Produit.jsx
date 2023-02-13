@@ -1,10 +1,7 @@
 import './Produit.scss';
 
-export default function Produit(props) {
-    //console.log("Les propriétés du produit : ", p);
-    let panier = props.panier
-    let setPanier = props.setPanier
-
+export default function Produit({panier,setPanier,...props}) {
+  
     function ajouterPanier(){
       //Premierement il faut obtenir une copie conforme du panier (clone)
       //Pour cloner le panier mais un peu moin bon
@@ -16,10 +13,11 @@ export default function Produit(props) {
       //On doit ajouter le produit au panier
       if(clonePanier[props.id]){
         clonePanier[props.id]++;
+        clonePanier[panier.qte]++;
+
       }else{
         clonePanier[props.pid] = {prix:props.prix, qte:1}
       }
-
       //Puis on doit donner a setPanier la nouvelle valeur du panier
       setPanier(clonePanier);
     }
