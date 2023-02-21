@@ -1,9 +1,15 @@
 import './Entete.scss';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import Badge from '@mui/material/Badge';
+
+import PanierSommaire from './PanierSommaire';
 
 function Entete({panier}) {
-	console.log(panier)
+	// console.log(panier)
+	// let tabValPanier = Object.values(panier)
+	// console.log("OKOK" + tabValPanier)
+
+	//Avec la method reduce() des tableau (une seule expression)
+	//const nbArticle = tabValPanier.reduce((valInitiale, eltSuivant) => valInitiale + eltSuivant.qte, 0 )
+
 	return(
 		<header className="Entete">
 			<h1>Magasin Général</h1>
@@ -11,10 +17,7 @@ function Entete({panier}) {
 				<span>Produits</span>
 				<span>À propos</span>
 				<span>
-					<Badge badgeContent ={Object.values(panier).length} color = 'secondary'/>
-				<ShoppingCartIcon/>
-				<Badge/>
-				
+					<PanierSommaire panier = {panier}/>
 				</span>
 			</nav>
 		</header>
