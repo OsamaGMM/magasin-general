@@ -20,6 +20,12 @@ export default function Produit({ panier, setPanier, nom, prix, pid }) {
     }
     //Puis on doit donner a setPanier la nouvelle valeur du panier
     setPanier(clonePanier);
+
+    /*le panier a ete modifer donc on va sauvegarder
+    Il faut se rappeler d'effectuer cet effet secondaire
+    dans apres chaque operation qui manipule le panier
+    localStorage.setItem('panier-ls', JSON.stringify(clonePanier))*/
+    
   }
 
   return (

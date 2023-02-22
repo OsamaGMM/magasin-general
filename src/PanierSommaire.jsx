@@ -31,7 +31,7 @@ function calculerSommaire(objPanier){
     //Definir un object qui contient l'info sure le panier
     const info = {
         articleDiff : tabPanier.length,
-        artticleTotal:0,
+        articleTotal:0,
         sousTotal:0,
         taxes:0,
         total:0
@@ -39,7 +39,7 @@ function calculerSommaire(objPanier){
     //Calculer les valeurs
     info.articleTotal = tabPanier.reduce((acc,suiv) => acc + suiv.qte, 0);
     info.sousTotal = tabPanier.reduce((acc,suiv) => acc + suiv.qte * suiv.prix, 0);
-    info.taxes = (info.sousTotal * 0.15);
+    info.taxes = info.sousTotal * 0.14975;
     info.total = info.sousTotal + info.taxes;
 
     return info;
